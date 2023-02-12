@@ -1,8 +1,10 @@
-# nodejs-multithreading
-Entendendo mais a fundo como o Node funciona (V8, libuv, event loop etc) e trabalhando com multi threads 
+# Node Multithreading
+Entendendo mais a fundo como o Node funciona (V8, libuv, event loop etc) e trabalhando com multi threads.
 
+## Teste
+Para testar execute o arquivo index.mjs que usará também o thread.mjs. O locking-node.mjs é apenas a prova real de que podemos travar o Node. 
 
-## Links
+## Links de apoio
 
 - https://nodejs.org/docs/latest-v18.x/api/child_process.html#child_processexecsynccommand-options
 
