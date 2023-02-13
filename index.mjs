@@ -40,7 +40,7 @@ console.log(
 
 let nodejsThreadCount = 0;
 const intervalId = setInterval(() => {
-    // console.log(`Running at every sex: ${new Date().toISOString()}`);
+    // console.log(`Running at every sec: ${new Date().toISOString()}`);
 
     // dessa forma vemos somente as threads que criamos manualmente
     const currentThreads = getCurrentThreadCount() - nodejsDefaultThreadNumber;
